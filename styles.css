@@ -1,0 +1,72 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f5f4f4;
+}
+
+header {
+    width: 100%;
+    background-color: #1c4e80;
+    text-transform: uppercase;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.bar-line-charts {
+    width: 49%;
+}
+
+.pie-chart {
+    width: 49%;
+}
+
+.chart-widget {
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #fff;
+}
+
+.widget-header {
+    background-color: #1c4e80;
+    text-transform: uppercase;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tooltip {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4);
+}
+
+#tooltip.hidden {
+    opacity: 0;
+}
+
+#tooltip p {
+    margin: 0;
+    font-size: 16px;
+}
