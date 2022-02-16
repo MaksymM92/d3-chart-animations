@@ -1,7 +1,7 @@
 import data from '../data/pie-data.js'
 
 // Selecting the element
-const element = document.getElementById('d3-chart');
+const element = document.getElementById('pie-chart');
 
 // Setting dimensions
 const margin = 10,
